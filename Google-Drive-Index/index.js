@@ -91,16 +91,14 @@
             "show_logout_button": false, // shows logout button if auth0.com is active
             "fixed_footer": true, // If you want the footer to be flexible or fixed.
             "hide_footer": true, // hides the footer from site entirely.
-            "header_style_class": "bg-transparent", // navbar-dark bg-primary || navbar-dark bg-dark || navbar-light bg-light
+            "header_style_class": "navbar-dark bg-transparent", // navbar-dark bg-primary || navbar-dark bg-dark || navbar-light bg-light
             "footer_style_class": "bg-primary", // bg-primary || bg-dark || bg-light
-            "css_a_tag_color": "white", // Color Name or Hex Code eg. #ffffff
-            "css_p_tag_color": "white", // Color Name or Hex Code eg. #ffffff
             "folder_text_color": "white", // Color Name or Hex Code eg. #ffffff
             "loading_spinner_class": "text-light", // https://getbootstrap.com/docs/5.0/components/spinners/#colors
-            "search_button_class": "btn btn-outline-secondary", // https://getbootstrap.com/docs/5.0/components/buttons/#examples
-            "path_nav_alert_class": "alert alert-dismissible alert-primary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
-            "file_view_alert_class": "alert alert-dismissible alert-danger", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
-            "file_count_alert_class": "alert alert-dismissible alert-primary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
+            "search_button_class": "btn-vapor", // https://getbootstrap.com/docs/5.0/components/buttons/#examples
+            "path_nav_alert_class": "alert", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
+            "file_view_alert_class": "alert", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
+            "file_count_alert_class": "alert", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
             "contact_link": "https://telegram.dog/Telegram", // Link to Contact Button on Menu
             "copyright_year": "2023", // year of copyright, can be anything like 2015 - 2020 or just 2020
             "company_name": "McRoyce Inc", // Name next to copyright
@@ -165,14 +163,7 @@
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdn.plyr.io/${uiConfig.plyr_io_version}/plyr.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.0/dist/${uiConfig.theme}/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-        <style>a{color:${uiConfig.css_a_tag_color};}p{color:${uiConfig.css_p_tag_color};}
-        body {
-            background-image: url("https://images.hdqwalls.com/download/synthwave-sun-mountains-4k-op-2560x1440.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;    
-        }
-        </style>
+        <link rel="stylesheet" href="https://mcroyce-onedrive.vercel.app/api/raw/?path=/CDNs/Google-Drive-Index/style.css" />
         <script src="${uiConfig.jsdelivr_cdn_src}@${uiConfig.version}/js/app.obf.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.12.313/build/pdf.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/marked@4.0.0/marked.min.js"></script>
@@ -199,14 +190,7 @@
             <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
             <link rel="stylesheet" href="https://cdn.plyr.io/${uiConfig.plyr_io_version}/plyr.css" />
             <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.0/dist/${uiConfig.theme}/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-            <style>a{color:${uiConfig.css_a_tag_color};}p{color:${uiConfig.css_p_tag_color};}
-            body {
-                background-image: url("https://images.hdqwalls.com/download/synthwave-sun-mountains-4k-op-2560x1440.jpg");
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center center;    
-            }
-            </style>
+            <link rel="stylesheet" href="https://mcroyce-onedrive.vercel.app/api/raw/?path=/CDNs/Google-Drive-Index/style.css" />
         </head>
         <body>
             <header>
@@ -233,7 +217,9 @@
                             </ul>
                             <form class="d-flex" method="get" action="/0:search">
                                 <input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search" value="" required="">
-                                <button class="btn btn btn-danger" onclick="if($('#search_bar_form>input').val()) $('#search_bar_form').submit();" type="submit">Search</button>
+                                <button class="btn btn-vapor" onclick="if($('#search_bar_form>input').val()) $('#search_bar_form').submit();" type="submit">
+                                    <img src="https://mcroyce-onedrive.vercel.app/api/raw/?path=/CDNs/Google-Drive-Index/NicePng_delorean-png_1621114.png" width="50px" height="15px">
+                                </button>
                             </form>
                         </div>
                     </div>
@@ -296,6 +282,7 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Palette+Mosaic&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://mcroyce-onedrive.vercel.app/api/raw/?path=/CDNs/Google-Drive-Index/style.css" />
             <style>
                 .logo {
                 font-family: 'Orbitron', sans-serif;

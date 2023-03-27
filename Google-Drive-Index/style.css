@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+body {
+    font-family: 'Exo 2', sans-serif;
+    background-image: url("https://mcroyce-onedrive.vercel.app/api/raw/?path=/CDNs/Google-Drive-Index/synthwave-sun-mountains-4k-op-2560x1440.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+p {
+    color: #fff !important;
+    text-shadow: 0 0 7px #fff !important;
+}
+
+a {
+    color: #ffffff !important;
+    text-shadow: 0 0 7px #fff !important;
+}
+
+.dropdown-item {
+    background-color: #530264 !important;
+}
+
+.form-control {
+    font-family: 'Yellowtail', cursive !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    background: transparent !important;
+    border: 3px solid #fff !important;
+    box-shadow: 0 0 10px #EA39B8, 0 0 10px #EA39B8 inset !important;
+    text-shadow: 0 0 10px #EA39B8, 0 0 20px #EA39B8 !important;
+}
+
+.form-control:hover {
+    background: transparent;
+    box-shadow: 0 0 10px #EA39B8, 0 0 20px #EA39B8, 0 0 20px #EA39B8 inset !important;
+    text-shadow: 0 0 10px #EA39B8, 0 0 20px #EA39B8, 0 0 20px #EA39B8 inset !important;
+ }
+
+.form-control:focus {
+    color: #fff !important;
+    font-weight: 600 !important;
+    background: transparent !important;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px #EA39B8, 0 0 20px #EA39B8, 0 0 20px #EA39B8 inset !important;
+    text-shadow: 0 0 10px #EA39B8, 0 0 20px #EA39B8, 0 0 20px #EA39B8 inset !important;
+ }
+
+::placeholder {
+    font-family: 'Yellowtail', cursive !important;
+    color: #fff !important;
+    opacity: 1 !important;
+    font-weight: 600 !important;
+    text-shadow: 0 0 10px #EA39B8, 0 0 20px #EA39B8 !important;
+ }
+
+.alert {
+    opacity: 0.8 !important;
+    margin-bottom: 1rem;
+ }
+
+.list-group {  
+    opacity: 0.8 !important;
+}
+
+.nav-item a {
+    font-family: 'Yellowtail', cursive !important;
+    color: #fff !important;
+    font-size: 25px !important;
+    text-shadow: 0 0 10px #0AB6EE, 0 0 20px #0AB6EE !important;
+}
+
+.nav-item a:hover {
+    text-shadow: 0 0 10px ##0AB6EE, 0 0 20px ##0AB6EE, 0 0 20px ##0AB6EE inset !important;
+}
+
+.btn-vapor {
+    color: transparent !important;
+    background-image: url(https://mcroyce-onedrive.vercel.app/api/raw/?path=/CDNs/Google-Drive-Index/NicePng_delorean-png_1621114.png) !important;
+    background-size: 70px !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important; 
+    width: 100px;
+    height: 50px;
+}
+.btn-vapor:hover {
+    color: transparent !important;
+}
